@@ -6,10 +6,6 @@ description: Composing multiple LED strip devices into one virtual device
 compatible: "zmk,led-strip-composite"
 
 properties:
-  label:
-    type: string
-    required: true
-
   chain-length:
     type: int
     required: true
