@@ -95,4 +95,4 @@ static const struct led_strip_composite_config led_strip_composite_config = {
 };
 
 DEVICE_DT_INST_DEFINE(0, &led_strip_composite_init, NULL, NULL, &led_strip_composite_config,
-                      POST_KERNEL, CONFIG_APPLICATION_INIT_PRIORITY, &led_strip_composite_api);
+                      POST_KERNEL, CONFIG_LED_STRIP_COMPOSITE_INIT_PRIORITY, &led_strip_composite_api);
